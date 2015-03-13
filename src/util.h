@@ -542,6 +542,7 @@ public:
 
 // Note: It turns out we might have been able to use boost::thread
 // by using TerminateThread(boost::thread.native_handle(), 0);
+bool CreateThread(void(*pfn)(void*), void* parg);
 #ifdef WIN32
 bool CreateThread(void(*pfn)(void*), void* parg);
 
