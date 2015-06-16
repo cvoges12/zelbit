@@ -835,7 +835,7 @@ int64 nSubsidy = 0 * COIN;
    else if (nHeight < 6)
            nSubsidy = 6000000 * COIN; // 6,000,000 reserve
    else if (nHeight < 43825)
-           nSubsidy = 0.1 * COIN; // 4382.1 coins
+           nSubsidy = 0.1 * COIN; // 4,382.1 coins
    else if (nHeight < 87650)
            nSubsidy = 0.2 * COIN; // 8,764.8 coins
    else if (nHeight < 131474)
