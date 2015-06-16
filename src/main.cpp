@@ -834,36 +834,34 @@ int64 nSubsidy = 0 * COIN;
            nSubsidy = 0.1 * COIN; // 0.5 coins
    else if (nHeight < 6)
            nSubsidy = 6000000 * COIN; // 6,000,000 reserve
-   else if (nHeight < 14610)
-           nSubsidy = 0.1 * COIN; // 1,460.7 coins
-   else if (nHeight < 29219)
-           nSubsidy = 0.2 * COIN; // 2921.6 coins
-   else if (nHeight < 43828)
-           nSubsidy = 0.4 * COIN; // 5,843.2 coins
-   else if (nHeight < 58437)
-           nSubsidy = 0.8 * COIN; // 11,686.4 coins
-   else if (nHeight < 73046)
-           nSubsidy = 1.6 * COIN; // 23,372.8 coins
-   else if (nHeight < 87655)
-           nSubsidy = 3.2 * COIN; // 46,745.6 coins
-   else if (nHeight < 102264)
-           nSubsidy = 6.4 * COIN; // 93,491.2 coins
-   else if (nHeight < 116873)
-           nSubsidy = 12.8 * COIN; // 186,982.4 coins
-   else if (nHeight < 131482)
-           nSubsidy = 25.6 * COIN; // 373,964.8 coins
-   else if (nHeight < 146091)
-           nSubsidy = 51.2 * COIN; // 747,926.6 coins
-   else if (nHeight < 160700)
-           nSubsidy = 102.4 * COIN; // 1,495,859.2 coins
-   else if (nHeight < 175309)
-           nSubsidy = 204.8 * COIN; // 2,991,718.4 coins
-   else if (nHeight < 189918)
-           nSubsidy = 409.6 * COIN; // 5,983,536.8 coins
-   else if (nHeight < 200946)
-           nSubsidy = 819.2 * COIN; // 9,034,137.6 coins
-   else if (nHeight > 200946)
-           nSubsidy = 0.00001 * COIN; // if xferfees aren't enough motivation 
+   else if (nHeight < 43825)
+           nSubsidy = 0.1 * COIN; // 4382.1 coins
+   else if (nHeight < 87650)
+           nSubsidy = 0.2 * COIN; // 8,764.8 coins
+   else if (nHeight < 131474)
+           nSubsidy = 0.4 * COIN; // 17,529.6 coins
+   else if (nHeight < 175298)
+           nSubsidy = 0.8 * COIN; // 35,059.2 coins
+   else if (nHeight < 219122)
+           nSubsidy = 1.6 * COIN; // 70,118.4 coins
+   else if (nHeight < 262946)
+           nSubsidy = 3.2 * COIN; // 140,236.8 coins
+   else if (nHeight < 306770)
+           nSubsidy = 6.4 * COIN; // 280,473.6 coins
+   else if (nHeight < 350594)
+           nSubsidy = 12.8 * COIN; // 560,947.2 coins
+   else if (nHeight < 394418)
+           nSubsidy = 25.6 * COIN; // 1,121,894.4 coins
+   else if (nHeight < 438242)
+           nSubsidy = 51.2 * COIN; // 2,243,788.8 coins
+   else if (nHeight < 482066)
+           nSubsidy = 102.4 * COIN; // 4,487,577.6 coins
+   else if (nHeight < 525890)
+           nSubsidy = 204.8 * COIN; // 8,975,155.2 coins
+   else if (nHeight < 533347)
+           nSubsidy = 409.6 * COIN; // 3,054,387.2 coins
+   else if (nHeight > 533347)
+           nSubsidy = 0.0001 * COIN; // if xferfees aren't enough motivation 
 
    return nSubsidy + nFees;
 }
