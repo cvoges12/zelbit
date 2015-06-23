@@ -998,6 +998,8 @@ void ThreadSocketHandler2(void* parg)
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
     {"zelbit.ddns.net", "81.133.193.160"},
+    {"zelbit.ddns.net", "81.133.193.160:10454"},
+    {"zelbit.ddns.net", "81.133.193.160:10453"},
 };
 
 void ThreadDNSAddressSeed(void* parg)
