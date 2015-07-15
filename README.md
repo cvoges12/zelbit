@@ -1,4 +1,9 @@
-100% open source, do as you wish!
+What is ZelBit
+ZelBit is the worlds first... With other innovations including a double-life instead of a half-life.
+
+License
+
+Worldcoin is released under the terms of the MIT license. See COPYING for more information or see http://opensource.org/licenses/MIT.
 
 Dependencies for Linux
 
