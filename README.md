@@ -1,5 +1,5 @@
 What is ZelBit
-ZelBit is the worlds first... With other innovations including a double-life instead of a half-life.
+ZelBit (ZLB) is the worlds first... With other innovations including a double-life instead of a half-life.
 
 License
 
