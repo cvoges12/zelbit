@@ -16,6 +16,7 @@ $sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libd
 $sudo apt-get remove qt5-default qttools5-dev-tools && sudo apt-get autoremove && sudo apt-get clean && sudo apt-get autoclean
 
 $git clone https://github.com/zelbit/zelbit.git
+
 $ cd /zelbit
 
 $qmake "USE_UPNP=-"
